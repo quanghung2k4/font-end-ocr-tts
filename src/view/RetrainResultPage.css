@@ -1,0 +1,72 @@
+p{
+    padding: 5px;
+    margin: 0;
+}
+.result-page {
+  height: 100%;
+  width: 100%;
+  background-color: #f3f3f3;
+  font-family: "Segoe UI", sans-serif;
+  padding: 40px 0;
+}
+
+.result-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-left: 50px;  
+  margin-bottom: 20px;
+}
+
+.result-container {
+  background: #fff;
+  width: 85%;
+  margin: 0 50px;
+  padding: 32px 48px;
+  border-radius: 10px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 16px
+}
+
+.label {
+  min-width: 250px;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.ant-input {
+  flex: 1;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #ddd;
+  height: 32px;
+  padding: 4px 10px;
+  color: #333;
+}
+
+.metrics {
+  padding: 8% 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.btn-container .ant-btn {
+  min-width: 100px;
+  height: 36px;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #1890ff;
+  border: none;
+}

@@ -1,0 +1,105 @@
+.train-page {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.train-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.train-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.train-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 2px solid #f0f0f0;
+  font-weight: 600;
+  color: #555;
+}
+
+.col-sample {
+  flex: 2;
+}
+.col-label {
+  flex: 1;
+}
+.col-select {
+  flex: 0.5;
+  text-align: right;
+}
+
+.train-list {
+  margin-top: 15px;
+}
+
+.train-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 10px 0;
+  transition: 0.2s;
+}
+
+.train-item:hover {
+  background: #fafafa;
+}
+
+.train-sample {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.train-label {
+  flex: 1;
+  color: #555;
+}
+
+.train-checkbox {
+  flex: 1;
+  text-align: right;
+}
+
+.audio-player {
+  width: 300px;
+  outline: none;
+}
+
+.train-actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.train-btn {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+}
+.train-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.select-all {
+  user-select: none;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

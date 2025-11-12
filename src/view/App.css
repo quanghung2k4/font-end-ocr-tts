@@ -1,0 +1,142 @@
+/* Reset mặc định */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f6fa;
+}
+
+/* App tổng thể */
+.app-container {
+  height: 100vh;
+  display: flex;
+}
+
+/* Dashboard layout */
+.dashboard {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* SideBar */
+.sidebar {
+  width: 220px;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-item {
+  padding: 12px 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #cfcfcf;
+}
+
+.menu-item.active {
+  background-color: #e6e6e6;
+}
+
+/* Nội dung chính */
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #f5f6fa;
+}
+
+.main-content h1 {
+  margin-top: 0;
+  color: #273c75;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* khoảng cách giữa icon và chữ */
+  padding: 12px 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 16px;
+}
+
+.menu-icon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+.menu-text {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(67, 67, 67);
+  padding: 15px 25px;
+  font-family: Arial, sans-serif;
+}
+
+.header-left h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-user-icon {
+  font-size: 26px;
+}
+
+.header-username {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.dashboard {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f6fa;
+}
